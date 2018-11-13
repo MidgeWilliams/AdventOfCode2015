@@ -43,7 +43,6 @@ def do_with_smallest(side_1, side_2):
     if paper:
         return side_1*side_2
     else:
-        print side_1, " ", side_2
         return 2*side_1+2*side_2
 
 # Gets surface area plus extra
@@ -71,7 +70,6 @@ total_ribbon = 0
 with open("inputD2", "r") as file:
     for line in file:
         total_paper += get_Surface(line)
-        print get_Ribbon(line)
         total_ribbon += get_Ribbon(line)
 
 
