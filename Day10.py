@@ -20,5 +20,5 @@ def process_num(given):
 
 for x in range(0,50):
     start = process_num(start)
-    print len(start)
+    print x,": ",len(start)
 print start, "\n", len(start)
